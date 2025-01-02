@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hero{
+    height:calc(100vh -72px);
+    width:100vw;
+    box-shadow: rgba(0, 0, 0, .8);
+    padding:2rem 3rem;
+    display: flex;
+    background: whitesmoke;
+}
+.hero .hero-content{
+    padding:20px;
+    line-height:1.5;
+    width:50%;
+}
+.hero .hero-content h1{
+    font-size:2.6rem;
+}
+.hero .hero-content .buttons{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding:20px;
+    line-height:1.5;
+}
+.hero .hero-content .buttons button{
+    height:40px;
+    width:100px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+.hero .hero-content .buttons button:hover{
+    background-color: green;
+    color:white;
+    border:.1rem solid rgba(0, 0, 0, .8);
+}
+.hero .hero-content .shopping .brand-icons{
+    display: flex;
+    width:100px;
+    height:100px;
+    gap:20px;
+    padding:20px;
+    line-height:1.5;
+}
+.hero .hero-content .shopping .brand-icons img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 3/4;
+}
+.hero .hero-image{
+    height:calc(100vh - 144px);
+    width: 60vh;
+}
+.hero .hero-image img{
+    height:100%;
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
